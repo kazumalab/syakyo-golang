@@ -1,9 +1,9 @@
 package main
 
-import {
+import (
   "bytes"
   "fmt"
-}
+)
 
 func main() {
   var buffer bytes.Buffer

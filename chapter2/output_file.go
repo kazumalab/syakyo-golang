@@ -1,8 +1,8 @@
 package main
 
-import {
+import (
   "os"
-}
+)
 
 func main() {
   file, err := os.Create("test.txt")

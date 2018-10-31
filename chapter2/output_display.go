@@ -1,8 +1,8 @@
 package main
 
-import {
+import (
   "os"
-}
+)
 
 func main() {
   os.Stdout.Write([]byte("os.Stdout example\n"))

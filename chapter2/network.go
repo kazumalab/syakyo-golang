@@ -1,10 +1,11 @@
 package main
 
-import {
+import (
   "os"
   "fmt"
   "net"
-}
+
+)
 
 func main() {
   conn, err := net.Dial("tcp", "ascii.jp:80")
